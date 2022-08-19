@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>CALCULATOR</h2>
+    <table class="main">
+        <tr class="first">
+            <td type="button" class="clear" onclick="clr()">C</td>
+            <td colspan="3"><input type="text" id="textval" class="type"></td>
+        </tr>
+        <table class="second">
+        <tr>
+            <td  value="7" class="numb" onclick="display('7')">7</td>
+            <td  value="8" class="numb" onclick="display('8')">8</td>
+            <td  value="9" class="numb" onclick="display('9')">9</td>
+            <td  value="+" class="numb" onclick="display('+')">+</td>
+        </tr>
+        <tr>
+            <td  value="4" class="numb" onclick="display('4')">4</td>
+            <td  value="5" class="numb" onclick="display('5')">5</td>
+            <td  value="6" class="numb" onclick="display('6')">6</td>
+            <td  value="-" class="numb" onclick="display('-')">-</td>
+        </tr>
+        <tr>
+            <td  value="1" class="numb" onclick="display('1')">1</td>
+            <td  value="2" class="numb" onclick="display('2')">2</td>
+            <td  value="3" class="numb" onclick="display('3')">3</td>
+            <td  value="*" class="numb" onclick="display('*')">*</td>
+        </tr>
+        <tr>
+            <td  value="0" class="numb" onclick="display('0')">0</td>
+            <td  value="." class="numb" onclick="display('.')">.</td>
+            <td  value="/" class="numb" onclick="display('/')">/</td>
+            <td  value="=" class="numb" onclick="add()">=</td>        
+        </tr>
+        </table>
+    </table>
+</body>
+<script src="./Calculator.js"></script>
+</html>
