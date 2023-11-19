@@ -1,3 +1,4 @@
+// function for calculation
 function add(){
     let x = document.getElementById("textval").value; 
     let z = /[a-zA-Z@#%^&_`]/g; 
